@@ -30,7 +30,7 @@ module.exports = {
         use: {
           loader: 'url-loader',
           options: {
-            limit: 0,
+            limit: 10 * 1024,
             outputPath: 'static/img/',
             // publicPath: '' // 单独给某个(图片)资源添加访问的公共路径，例如把资源放到cdn上
           }
